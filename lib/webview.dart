@@ -95,7 +95,7 @@ class _WebviewState extends State<Webview>
                       margin: const EdgeInsets.only(top: 32),
 
                       child: WebView(
-                        initialUrl:'http://institutefortransport.com/',
+                        initialUrl:'https://www.institutefortransport.com/',
                         onPageStarted: (String url){
                           const CircularProgressIndicator();
                         },
@@ -130,7 +130,7 @@ class _WebviewState extends State<Webview>
                     margin: const EdgeInsets.only(top: 32),
 
                     child: WebView(
-                      initialUrl:'http://institutefortransport.com/',
+                      initialUrl:'https://www.institutefortransport.com/',
                       // initialUrl:snapshot.data!.message![0].appLink,
                       javascriptMode: JavascriptMode.unrestricted,
                       onWebViewCreated: (WebViewController webViewController) {
